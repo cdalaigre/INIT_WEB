@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    flex-basis: 100%;
+}
+
+section{
+    flex-basis: 32.59%;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 65.9%;
+}
+
+h1,p{
+    flex-basis: 100%;
+}
+
+#rose{
+    flex-basis: 100%;
+}

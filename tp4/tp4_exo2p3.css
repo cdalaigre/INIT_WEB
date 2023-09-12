@@ -1,0 +1,17 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header{
+    flex-basis: 50%;
+}
+
+section{
+    flex-basis: 50%;
+}
+
+footer{
+    flex-basis: 50%;
+    flex-grow: 1;
+}

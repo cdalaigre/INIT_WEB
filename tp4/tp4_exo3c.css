@@ -1,0 +1,20 @@
+header{ 
+  background-color: lightgrey;
+  margin:5px;
+ }
+section{ 
+  background-color: lawngreen; 
+  margin:5px;
+}
+article{ 
+  background-color: lightyellow;
+  margin:5px;
+ }
+#rose{ 
+  background-color: lightpink;
+  margin:5px;
+ }
+p{
+  background-color: lightblue;
+  margin:5px;
+}

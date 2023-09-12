@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width:73.207%
+}
+    
+header, article{
+    flex-basis: 75%;
+    flex-grow: 1;
+   
+}
+    
+section{
+    flex-basis: 75%;
+    flex-grow: 0;
+   
+}
+
+.gris { 
+    background-color: grey;
+    width:100%;
+}
+
+.vert { 
+    background-color: lawngreen;
+    width:100%;
+}
+
+.pink { 
+    background-color: pink;
+    width:100%;
+}
+
+article {
+    background-color: lightyellow;
+    width:100%; 
+}
+
+article h1 {
+    background-color: transparent;    
+}
+
+article p {
+    background-color: lightblue;
+    margin:2px;    
+}

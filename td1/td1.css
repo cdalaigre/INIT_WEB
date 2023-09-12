@@ -1,0 +1,15 @@
+#p0 { background-color: grey; }
+
+h1 {
+    font-size: 200%;
+    color: blue;
+}
+
+h2 {color:blue;}
+#p2 {color:red;}
+
+a {
+    color:blue;
+    font-weight: bold;
+}
+#p3 {color:black;}

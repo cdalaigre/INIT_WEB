@@ -1,0 +1,27 @@
+body{
+    width:73.207%;
+    margin:5px;
+    padding:5px;
+}
+
+h1{
+    margin:5px;
+    padding:5px;
+    background-color: lightblue;
+    width:60%;
+}
+
+section{
+    margin:5px;
+    padding:5px;
+    background-color: lightpink;
+    width:80%;
+}
+
+p{
+    margin:5px;
+    padding:5px;
+    background-color: lightgreen;
+    width:50%;
+}
+

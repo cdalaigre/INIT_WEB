@@ -1,0 +1,19 @@
+section{
+ border:1px solid black;
+ margin:5px;
+ padding:5px;
+}
+
+h1{
+    border:1px solid black;
+    margin:5px;
+    padding:5px;
+    background-color: lightgrey;
+}
+
+p{
+    border:1px solid black;
+    margin:5px;
+    padding:5px;
+    background-color: lightblue;
+}

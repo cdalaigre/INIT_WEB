@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tableaux</title>
+    <link rel="stylesheet" href="tp5.css"/>
+  </head>
+  <body>
+    <h1>Exercice sur les tableaux</h1>
+    <section>
+        <h2>Question 1</h2>
+        <p>Un tableau simple en utilisant seulement les éléments <code>table</code>,  <code>caption</code>, <code>tr</code>, <code>th</code> et <code>td</code></p>
+        <!-- TABLEAU A CODER -->
+        <table>
+          <caption>Matchs du samedi 10 Octobre</caption>
+          <th>Heure</th>
+          <th>Equipe 1</th>
+          <th>Score</th>
+          <th>Equipe 2</th>
+          <tr>
+            <td>10h</td>
+            <td>Fnatic</td>
+            <td>1-0</td>
+            <td>TSM</td>
+          </tr>
+          <tr>
+            <td>12h</td>
+            <td>TSM</td>
+            <td>0-1</td>
+            <td>Gen.G</td>
+          </tr>
+          <tr>
+            <td>15h</td>
+            <td>Gen.G</td>
+            <td>1-0</td>
+            <td>Fnatic  </td>
+          </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Question 2</h2>
+        <p>Un tableau plus compliqué en ajoutant l'attribut <code>colspan</code></p>
+        <!-- TABLEAU A CODER -->
+        <table>
+          <caption>Matchs du samedi 10 Octobre</caption>
+          <th></th>
+          <th>10h</th>
+          <th>11h</th>
+          <th>12h</th>
+          <th>13h</th>
+          <th>14h</th>
+          <th>15h</th>
+          <tr>
+            <td>Fnatic</td>
+            <td>Match</td>
+            <td colspan="4">Repos</td>
+            <td>Match</td>
+          </tr>
+          <tr>
+            <td>TSM</td>
+            <td>Match</td>
+            <td>Repos</td>
+            <td>Match</td>
+            <td colspan="3">Repos</td>
+          </tr>
+          <tr>
+            <td>Gen.G</td>
+            <td colspan="2">Repos</td>
+            <td>Match</td>
+            <td colspan="2">Repos</td>
+            <td>Match</td>
+          </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Question 3</h2>
+        <p>Un tableau plus compliqué en ajoutant l'attribut <code>rowspan</code></p>
+        <!-- TABLEAU A CODER -->
+        <table>
+          <caption>Matchs du samedi 10 Octobre</caption>
+          <th></th>
+          <th>10h</th>
+          <th>11h</th>
+          <th>12h</th>
+          <th>13h</th>
+          <th>14h</th>
+          <th>15h</th>
+          <tr>
+            <td>Fnatic</td>
+            <td rowspan="2">Match</td>
+            <td colspan="4">Repos</td>
+            <td>Match</td>
+          </tr>
+          <tr>
+            <td>TSM</td>
+            <td>Repos</td>
+            <td rowspan="2">Match</td>
+            <td colspan="3">Repos</td>
+          </tr>
+          <tr>
+            <td>Gen.G</td>
+            <td colspan="2">Repos</td>
+            <td colspan="2">Repos</td>
+            <td>Match</td>
+          </tr>
+        </table>
+    </section>      
+  </body>
+</html>
+
+

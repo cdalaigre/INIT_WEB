@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>TD6 EXO1</title>
+        <link rel="stylesheet" href="td6_exo1.css">
+    </head>
+    <body>
+        <form>
+            <h2>Connexion</h2>
+            
+            <fieldset>
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom"></input>
+                    ou
+                    <label for="courriel">Email</label>
+                    <input type="email" name="courriel" id="courriel"></input> 
+                </div>
+                <br>
+                <div>
+                    <label for="pwd">Mot de passe</label>
+                    <input type="password" name="pwd" id="pwd"></input>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="cgu" id="cgu"></input>
+                    <label for="cgu">J'accepte les conditions générales de vente</label>
+                </div>
+            </fieldset>
+            <br>
+            <input type="button" name="connect" id="connect" value="Se connecter"></input>
+                    
+        </form>
+
+        <h1>Un exemple de formulaire (inactif)</h1>
+        <form>
+            <div>
+                <label for="prenom">Nom</label>
+                <input id="prenom" name="prenom" type="text">
+            </div>
+            <br>
+            <fieldset>
+                <legend>Veuillez sélectionner vos intérêts :</legend>
+                <div>
+                    <input type="checkbox" id="codage" name="interest" value="codage">
+                    <label for="codage">Développement</label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="musique" name="interest" value="musique">
+                    <label for="musique">Musique</label>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <input type="button" value="Envoyer le formulaire">
+            </div>
+        </form>
+    </body>
+</html>

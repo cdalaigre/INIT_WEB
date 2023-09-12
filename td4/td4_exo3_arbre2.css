@@ -1,0 +1,40 @@
+body{
+    width:73.207%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.gris { 
+    background-color: grey;
+    
+}
+
+.vert { 
+    background-color: lawngreen;
+    flex-grow: 1;
+}
+
+.pink { 
+    background-color: pink;
+    width:100%;
+}
+
+article {
+    background-color: lightyellow;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap; 
+}
+
+article h1 {
+    background-color: transparent;
+    flex-basis: 100%;
+}
+
+article p {
+    background-color: lightblue;
+    margin:2px;
+    flex-basis: 40%;
+    flex-grow: 0;
+    
+}

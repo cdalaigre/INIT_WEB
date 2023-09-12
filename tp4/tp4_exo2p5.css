@@ -1,0 +1,22 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header{
+    flex-basis:100%;
+    margin:5px;
+    
+}
+
+section{
+    flex-basis: 32.59%;
+    margin:5px;
+    
+}
+
+footer{
+    flex-basis: 50%;
+    margin:5px;
+    flex-grow: 1;
+}

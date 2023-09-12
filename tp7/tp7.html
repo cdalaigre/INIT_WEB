@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>TP7 EXO2</title>
+        <link rel="stylesheet" href="tp7_exo2.css">
+    </head>
+    <body>
+        <header>
+            <h2>Soirée bowling</h2>
+            <p>Inscriptions</p>
+        </header>
+        <main>
+            <form>                       
+                <fieldset>  
+                    <legend>Je m'identifie</legend>
+                    <div>
+                        <label for="prenom">Mon prénom</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Ex : Nathan"></input>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="gpe">Groupe</label>
+                        <select name="groupe" id="gpe">
+                            <option value="11">BUT1-1</option>
+                            <option value="12">BUT1-2</option>
+                            <option value="13">BUT1-3</option>
+                            <option value="14">BUT1-4</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="courriel">Mon adresse mail</label>
+                        <input type="password" name="courriel" id="courriel" placeholder="cd_barca@yahoo.fr"></input>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pwd">Mon mot de passe</label>
+                        <input type="password" name="pwd" id="pwd"></input>
+                    </div>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset>  
+                    <legend>Je m'informe</legend>
+                    <div>
+                        <label for="food">Cochez les aliments que vous aimez manger :</label>
+                        <ul>
+                            <li><input type="checkbox" name="food" id="food">Frites</input></li>
+                            <li><input type="checkbox" name="food" id="food">Steak haché</input></li>
+                            <li><input type="checkbox" name="food" id="food">Epinards</input></li>
+                            <li><input type="checkbox" name="food" id="food">Huitres</input></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <label for="shoe">Veuillez indiquer votre pointure :</label>
+                        <ul>
+                            <li><input type="radio" name="shoe" id="shoe">Moins de 38</input></li>
+                            <li><input type="radio" name="shoe" id="shoe">Entre 39 et 40</input></li>
+                            <li><input type="radio" name="shoe" id="shoe">Entre 41 et 42</input></li>
+                            <li><input type="radio" name="shoe" id="shoe">Plus de 43</input></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <label for="sms">Je laisse un message (facultatif):</label>
+                    </div>
+                    <div>
+                        <textarea name="sms" id="sms" rows="5" cols="40"></textarea>              
+                    </div>
+                </fieldset>
+                <br>
+                <input type="button" name="connect" id="connect" value="Je m'inscris"></input>
+                <input type="reset" name="connect" id="connect" value="Je réinitialise le formulaire"></input>    
+            </form>
+        </main>
+    </body>
+</html>

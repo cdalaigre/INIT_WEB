@@ -1,0 +1,46 @@
+body{
+  margin: 5em;
+}
+
+nav ul{
+  border-bottom : 1px solid black;
+}
+
+ul{  
+  padding: 0;
+}
+
+li{
+  margin-right: 2em;
+  margin-top: 1em;
+  list-style-type: none;
+}
+
+main{
+  padding-top: 2em;
+}
+
+article{
+  margin-right: 20%;
+}
+
+footer{
+  padding-top: 1em;
+  border-top : 5px solid black;
+}
+
+footer > p{
+  margin: 0;
+}
+
+h1>span{
+  display: block;
+  color:grey;
+  font-style: italic;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+}
+

@@ -1,0 +1,18 @@
+header,footer{ 
+  background-color: lightgoldenrodyellow;
+  margin:5px;
+  padding:5px;
+  height: 20px;
+  text-align: center;
+ }
+nav,aside{ 
+  background-color: lightpink; 
+  margin:5px;
+  height: 500px;
+}
+article{ 
+  background-color: lightblue;
+  margin:5px;
+  height: 500px;
+ }
+
