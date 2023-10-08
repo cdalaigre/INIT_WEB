@@ -1,6 +1,6 @@
 body{
     width:1000px;
-    height:492px;
+    height:942px;
     font-size: 20px;
     padding:1em;
     margin:2em;
@@ -13,6 +13,7 @@ section, h1, p{
     padding:1em;
     margin:2em;
 }
+
 section{
     display: flex;
     flex-wrap: wrap;
