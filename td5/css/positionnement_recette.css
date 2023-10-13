@@ -23,3 +23,31 @@ main{
     flex-basis: 20%;
     flex-grow: 1;
 }
+
+#recettes {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h3{
+    flex-basis: 100%;    
+}
+
+.fiche {
+    flex-basis: 45%;
+}
+
+aside{    
+    
+    flex-grow: 1;
+}
+
+aside h3{
+    flex-basis: 100%;
+}
+
+aside img{
+    flex-basis: 85%;
+    margin:10px;
+}

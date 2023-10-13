@@ -1,5 +1,6 @@
 header,footer{
     background-color: #d3d3d3;
+    
 }
 
 .titre{
@@ -16,13 +17,18 @@ nav ul li{
     margin : 120px;    
 }
 
-main{
-    text-align: center;    
+nav ul li:hover{
+    background: white;    
 }
 
-main img{
+#home img{
     height : 300px;  
     width : 700px; 
+    margin-left: 320px;    
+}
+
+.rubriques {
+    text-align: center;
 }
 
 .rubriques p{
@@ -34,9 +40,26 @@ main img{
     height:100px;
 }
 
+.fiche {
+    background-color: #add8e6;
+    font-size: 16px;
+    margin: 10px;
+    padding: 5px;
+}
+
+aside img{
+    width:210px;
+    height:160px;
+    margin: 15px;
+}
+
+aside p {
+    font-size: 10px;
+}
+
 footer{
     background-color: #d3d3d3;
-    height: 22px;
+    height: 24px;
 }
 
 footer img{
