@@ -1,0 +1,44 @@
+header,footer{
+    background-color: #d3d3d3;
+}
+
+.titre{
+    color: #00008b;
+}
+
+h1{
+    text-align: center;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    margin : 120px;    
+}
+
+main{
+    text-align: center;    
+}
+
+main img{
+    height : 300px;  
+    width : 700px; 
+}
+
+.rubriques p{
+    font-size: 8px;
+}
+
+.rubriques img{
+    width:100px;
+    height:100px;
+}
+
+footer{
+    background-color: #d3d3d3;
+    height: 22px;
+}
+
+footer img{
+    height: 22px;
+}
